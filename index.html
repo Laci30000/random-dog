@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Véletlenszerű kutyás média</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Véletlenszerű kutyás média</h1>
+    <div class="button-container">
+        <button onclick="getRandomDog()">Véletlenszerű</button>
+        <button onclick="getOnlyImage()">Csak kép</button>
+        <button onclick="getOnlyVideo()">Csak videó</button>
+    </div>
+    <div class="media-container">
+        <img id="dogImage" src="" alt="Kutyás kép" style="display: none;">
+        <video id="dogVideo" controls style="display: none;"></video>
+    </div>
+    
+   
+</body>
+</html>

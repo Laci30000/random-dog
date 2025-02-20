@@ -1,1 +1,1 @@
-# random-dog
+https://random.dog/woof.json
